@@ -1,0 +1,22 @@
+rypak version history
+
+version 0.5 beta  (2016-0910)
+  - compress PNG and JPG media inside Office Open XML files
+  - migrated from optparse to argparse
+
+version 0.4 alpha  (2016-0903)
+  - report optimization details
+
+version 0.3 alpha  (2016-0831)
+  - support for png compression using optipng.exe
+  - support for bmp, gif, tif conversion to png using optipng
+
+version 0.2 alpha  (2016-0831)
+  - support for jpg compression using jpegtran.exe
+
+version 0.1 alpha  (2016-0831)
+  - support for MS Office Open XML files (.pptx, .xlsx, .docx)
+  - support for .zip
+  - support for .tar (creates .zip with same contents)
+  - support for .h5
+  - uses 7z.exe for improved compression if found on system path
